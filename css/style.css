@@ -1,0 +1,37 @@
+@charset "utf-8"
+
+/*
+  Palette
+  Light blue: #246F7D;
+  Yellow-green: #999A1B;
+  Green: #55A31A;
+  Brown: #703B35;
+  Pink: #B1429C;
+  White: #F2F6EF;
+*/
+
+html {
+
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #F2F6EF;
+  background-color: #703B35;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+fieldset {
+  margin: 0 auto;
+  text-align: left;
+  width: 550px;
+  border: 2px solid #F2F6EF;
+}
+
+fieldset > legend {
+  padding-left: 5px;
+  padding-right: 5px;
+}
